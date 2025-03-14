@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next node_modules"
+  },
+  "dependencies": {
+    "react": "workspace:*",
+    "react-dom": "workspace:*",
+    "next": "15.2.2"
+  },
+  "devDependencies": {
+    "typescript": "workspace:*",
+    "@types/node": "workspace:*",
+    "@types/react": "workspace:*",
+    "@types/react-dom": "workspace:*",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "workspace:*",
+    "eslint-config-next": "15.2.2",
+    "@eslint/eslintrc": "^3"
+  }
+}
